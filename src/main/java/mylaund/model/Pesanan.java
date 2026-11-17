@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Pesanan implements ITransaksi {
     private String idPesanan;
-    private Pelanggan pelanggan; // Agregasi: Pelanggan dibuat di luar dan dihubungkan ke Pesanan
+    private Pelanggan pelanggan; 
     private LocalDateTime tanggalMasuk;
     private LocalDateTime estimasiSelesai;
     private double totalBiaya;
